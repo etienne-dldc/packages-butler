@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@dldc/css-console": "jsr:@dldc/css-console@^0.2.0",
+    "@inquirer/confirm": "npm:@inquirer/confirm@^5.1.7",
+    "@inquirer/expand": "npm:@inquirer/expand@^4.0.10",
+    "@std/fs": "jsr:@std/fs@^1.0.14",
+    "@std/path": "jsr:@std/path@^1.0.8"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-explicit-any"]
+    }
+  }
+}
